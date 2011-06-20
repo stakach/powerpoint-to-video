@@ -18,6 +18,13 @@ h2. Requirements
 # Microsoft Powerpoint 2010 with developer tools installed
 # Dot NET is also required
 
+h3. Running from a Services
+
+When this application is launched from a service it will fail unless the following folder exists:
+* C:\Windows\System32\config\systemprofile\Desktop
+
+This applies to: Windows Vista/Windows 2008 Server and newer operating systems
+
 
 h2. Usage
 
