@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTVideo", "PPTVideo\PPTVideo.csproj", "{E756F2FC-ACF2-4C81-9479-9C176335DF37}"
 EndProject
 Global

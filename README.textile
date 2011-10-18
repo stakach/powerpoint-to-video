@@ -15,13 +15,15 @@ h2. Requirements
 
 # Microsoft Windows
 #* Server 2008R2 and Windows 7 have the best media support for conversions
+#* The desktop experience feature needs to be added to windows server for video support
 # Microsoft Powerpoint 2010 with developer tools installed
-# Dot NET is also required
+# Dot NET is also required.
 
 h3. Running from a Services
 
 When this application is launched from a service it will fail unless the following folder exists:
 * C:\Windows\System32\config\systemprofile\Desktop
+* C:\Windows\SysWOW64\config\systemprofile\Desktop (when running 32bit PPT on x64)
 
 This applies to: Windows Vista/Windows 2008 Server and newer operating systems
 
